@@ -1,0 +1,22 @@
+.parent_p,h2{
+    text-align: left;
+    width:80%;
+    margin:auto;
+    max-width: 660px;
+    padding-left:40px;
+    font-size:18px;
+    /*background-color: #f00;*/
+    line-height: 36px;
+}
+.parent_p:last-of-type{
+    padding-bottom:20px;
+}
+.parent_p span{
+    color:#58a;
+}
+.parent{
+    padding:40px;
+}
+/*h2.parent_title{*/
+    /*text-align: left;*/
+/*}*/

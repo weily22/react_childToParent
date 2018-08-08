@@ -1,0 +1,42 @@
+.child{
+    width:80%;
+    margin:auto;
+    max-width: 660px;
+    border:1px solid #ccc;
+    padding:20px 40px 0 20px;
+    box-sizing: border-box;
+}
+.item{
+    margin-bottom:40px;
+}
+.item p{
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+}
+.item p.required:before{
+    position: absolute;
+    content: '*';
+    left: -5px;
+    top: -5px;
+    color:#d91717;
+    font-size:25px;
+}
+.item input{
+    width:100%;
+    outline: none;
+    border:0;
+    padding:5px 8px;
+    border-bottom:1px solid #83c3e6;
+}
+.item textarea{
+    width:100%;
+    outline: none;
+    padding:5px 8px;
+}
+.item .err{
+    font-size:16px;
+    float:right;
+    color: #58a;
+    margin-top:3px;
+}
