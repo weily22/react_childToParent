@@ -46,7 +46,7 @@ See the section about [deployment](#deployment) for more information.
 >
 > ### 子 传递 父
 >
-> **props + 自身作用域 **
+> **props + 自身作用域**
 >
 > 父组件通过`props`传递子组件一个方法：  **this.getChildValue**
 >
@@ -72,5 +72,11 @@ See the section about [deployment](#deployment) for more information.
 >
 > 实现效果如下：
 >
-> 
+> 静态图片：
+>
+> ![](https://raw.githubusercontent.com/weily22/BlogImgs/master/readme_image/react_childToParent.jpg)
+>
+> 演示效果图：
+>
+> ![xiaoguo](https://raw.githubusercontent.com/weily22/BlogImgs/master/readme_image/react_childToParent.gif)
 
